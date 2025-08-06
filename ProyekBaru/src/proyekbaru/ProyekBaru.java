@@ -72,8 +72,10 @@ public class ProyekBaru {
 
         if (JOptionPane.YES_OPTION == pertanyaan) {
             JOptionPane.showMessageDialog(null, "Kamu memilih Yes.");
-        } else if (JOptionPane.NO_OPTION == pertanyaan) {
+        } 
+        else if (JOptionPane.NO_OPTION == pertanyaan) {
             JOptionPane.showMessageDialog(null, "Kamu memilih No.");
         }
     }
 }
+
